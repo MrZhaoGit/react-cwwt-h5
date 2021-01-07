@@ -1,0 +1,29 @@
+.HeaderDom{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  .am-navbar{
+    .am-navbar-left,.am-navbar-right{
+      max-width: 80px;
+    }
+    .am-navbar-left{
+      padding-left: 5px;
+      svg{
+        width: 0.746667rem;
+        height: 0.8rem;
+        color: #fff;
+      }
+    }
+    .am-navbar-right{
+      margin-right: 0;
+      padding-right: 10px;
+    }
+  }
+  
+}
+.HeaderPopover .am-popover-arrow{
+  top: -4px;
+}

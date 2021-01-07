@@ -1,0 +1,89 @@
+html,body,#root{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.homePage{
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  .homeTitle{
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background-color: #FF694B;
+  }
+  .homeUserCard{
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    background-color: #fff;
+    border-bottom: 1px solid #E2E8EB;
+    >div>div{
+      border-right: 1px solid #E2E8EB;
+    }
+    >div>div:last-child{
+      border-right: 0;
+    }
+    img{
+      width: 30px;
+      height: 31px;
+      margin-bottom: 3px;
+    }
+    a{
+      color: #5a616a;
+    }
+  }
+  .homeTips{
+    height: 30px;
+    line-height: 30px;
+    .imgTru{
+      width: 14px;
+      height: 14px;
+      margin-right: 6px;
+      vertical-align: -3px;
+    }
+    .imgBook{
+      width: 18px;
+      height: 18px;
+      margin-right: 3px;
+      vertical-align: -4px;
+    }
+  }
+  .homeGrid{
+    padding: 0 10px;
+    padding-bottom: 15px;
+    margin-bottom: 70px;
+    font-size: 14px;
+    background-color: #fff;
+    img{
+      width: 52.5px;
+      margin-bottom: 3px;
+    }
+    .am-grid-item-content{
+      padding-bottom: 0!important;
+    }
+    a{
+      color: #5a616a;
+    }
+  }
+  .indexTabBars{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 3000;
+    .am-tab-bar-bar .am-tab-bar-tab-icon img{
+      width: 20px;
+      height: 20px;
+    }
+    .am-tab-bar-bar .am-tab-bar-tab-title{
+      font-size: 13px;
+    }
+  }
+}

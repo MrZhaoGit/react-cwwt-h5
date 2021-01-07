@@ -1,0 +1,147 @@
+.VisaDom{
+  .Visa_Banner{
+    width: 100%;
+    font-size: 0;
+    position: relative;
+    img{
+      width: 100%;
+    }
+    .VB_SearchBox{
+      width: 80%;
+      margin-left: -40%;
+      position: absolute;
+      top: 123px;
+      left: 50%;
+      z-index: 10;
+      .VB_InsType{
+        width: 60px;
+        height: 24px;
+        margin-right: 5px;
+        text-align: center;
+        line-height: 24px;
+        font-size: 14px;
+        color: #fff;
+        background-color: #FF694B;
+        border-radius: 4px;
+        .am-icon{
+          vertical-align: -3px;
+        }
+      }
+      .VB_Search-item{
+        flex: 1;
+        height: 24px;
+        padding-left: 5px;
+        line-height: 24px;
+        font-size: 14px;
+        background-color: #fff;
+        border-radius: 4px;
+        .VB_Search-line{
+          display: flex;
+        }
+        .am-icon{
+          vertical-align: -4.5px;
+          padding-right: 3px;
+        }
+        input{
+          font-size: 14px;
+        }
+        input::placeholder{
+          color: #ADB2B9;
+        }
+      }
+    }
+  }
+  .VC_title_box{
+    margin-top: 10px;
+    padding: 0 10px 10px 10px;
+    background-color: #fff;
+    .VC_title{
+      font-size: 16px;
+      line-height: 16px;
+      padding: 8px 0;
+      border-bottom: 1PX solid #E2E8EB;
+      p:first-child{
+        padding-left: 5px;
+        border-left: 4PX solid #fd6e52;
+      }
+      p:nth-child(2){
+        font-size: 14px;
+        color: #ADB2B9;
+      }
+    }
+  }
+  .Visa_Content{
+    padding: 0 10px;
+    font-size: 16px;
+    line-height: 16px;
+    background-color: #fff;
+    overflow: hidden;
+    .VC_Swiper{
+      font-size: 0;
+      margin-bottom: 10px;
+      p{
+        font-size: 14px;
+        line-height: 14px;
+        margin-top: -3px;
+        text-align: center;
+      }
+      img{
+        width: 100%;
+        box-shadow: 1px 1px 5px #ADB2B9;
+      }
+    }
+  }
+  .VC_Steps{
+    padding: 0 10px;
+    background-color: #fff;
+    .am-steps-item{
+      width: 25%;
+      .am-steps-item-tail{
+        top: 19px;
+      }
+      .am-steps-item-icon{
+        width: 100%;
+        margin-left: auto;
+        padding-left: 10px;
+      }
+      .am-steps-item-content{
+        margin-top: 0;
+        width: 100%;
+      }
+    }
+    .am-steps-icon{
+      display: inline-block;
+      width: 33px;
+      height: 33px;
+      img{
+        width: 33px;
+        height: 33px;
+      }
+    }
+    .am-steps-item-title{
+      font-size: 12px;
+      font-weight: normal;
+    }
+  }
+  .VC_VisaCity{
+    padding: 0 10px 20px;
+    background-color: #fff;
+    .am-flexbox .am-flexbox-item{
+      height: 30px;
+    }
+    .am-flexbox .am-flexbox-item .am-grid-item-content{
+      padding: 0;
+      div{
+        margin: 0 5px;
+        height: 24px;
+        line-height: 24px;
+        font-size: 14px;
+        border: 1PX solid #E2E8EB;
+        border-radius: 4px;
+      }
+    }
+  }
+}
+.VB_SelInsType .am-popover-arrow{
+  top: -3.5px;
+}

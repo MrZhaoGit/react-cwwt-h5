@@ -1,0 +1,8 @@
+{
+  "theme": {
+    "brand-primary": " #FF694B",
+    "brand-primary-tap": "#e6674d",
+    "border-color-base": "#e2e8eb",
+    "color-text-base": "#5a616a"
+  }
+}

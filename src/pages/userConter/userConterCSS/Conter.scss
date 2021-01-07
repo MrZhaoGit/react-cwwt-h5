@@ -1,0 +1,141 @@
+.UserConterDom {
+  a{
+    color: #5a616a;
+  }
+  .UserConter_Content{
+    margin-top: 45px;
+    .UCC_banner{
+      overflow: hidden;
+      width: 100%;
+      height: 151px;
+      background: url("../../../assets/user_center_icon/bg_green@2x.png") no-repeat 100% 100%;
+      text-align: center;
+      .UCC_UserIcon{
+        display: inline-block;
+        margin-top: 20px;
+        padding: 3px;
+        border-radius: 50%;
+        font-size: 0;
+        background-color: #fff;
+        img {
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+        }
+      }
+    }
+    .UCC_UserTab{
+      padding: 15px 0;
+      background-color: #fff;
+      div{
+        text-align: center;
+        img{
+          width: 25px;
+        }
+        p{
+          margin-top: 5px;
+          font-size: 14px;
+        }
+      }
+    }
+    .UCC_UserList{
+      margin-top: 10px;
+      background-color: #fff;
+      .am-list-item .am-list-line .am-list-content{
+        font-size: 14px;
+        img{
+          width: 20px;
+          height: 20px;
+          margin-right: 3px;
+          vertical-align: -4px;
+        }
+        .NoIcon{
+          vertical-align: middle;
+        }
+      }
+    }
+    .loginOut{
+      width: 100%;
+      padding: 14px 0;
+      margin: 10px 0 60px;
+      text-align: center;
+      font-size: 16px;
+      color: #FF694B;
+      background-color: #fff;
+    }
+  }
+  .indexTabBars{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 3000;
+    .am-tab-bar-bar .am-tab-bar-tab-icon img{
+      width: 20px;
+      height: 20px;
+    }
+    .am-tab-bar-bar .am-tab-bar-tab-title{
+      font-size: 13px;
+    }
+  }
+}
+.HeaderPopover-Center {
+  .am-popover-item-container{
+    padding-left: 0;
+  }
+  .am-popover-item-content{
+    flex: 1;
+    img{
+      width: 20px;
+      margin-right: 3px;
+      vertical-align: -4px;
+    }
+  }
+  .PopoverItem_out{
+    color: #FF694B;
+  }
+}
+.LanguageModal{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba($color: #000000, $alpha: .1);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10000;
+  .LM_Content{
+    width: 60%;
+    max-height: 200px;
+    margin-left: -30%;
+    margin-top: -100px;
+    background-color: #fff;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    p{
+      padding: 10px;
+      padding-top: 15px;
+      font-size: 16px;
+      text-align: center;
+    }
+    div{
+      padding: 4px 10px;
+      line-height: 30px;
+      font-size: 14px;
+      border-bottom: 1PX solid #E2E8EB;
+      img{
+        width: 20px;
+        height: 20px;
+        margin-right: 3px;
+        vertical-align: -4px;
+      }
+    }
+    div:last-child{
+      border-bottom: 0;
+    }
+  }
+}

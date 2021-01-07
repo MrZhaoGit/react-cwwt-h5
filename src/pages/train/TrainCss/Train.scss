@@ -1,0 +1,65 @@
+.TrainSearchDom{
+  background-color: #fff;
+  .Train_Banner{
+    width: 100%;
+    font-size: 0;
+    img{
+      width: 100%;
+    }
+  }
+  .Train_Content{
+    padding-top: 20px;
+    .Train_Content_List{
+      li{
+        margin: 0 10px;
+        border-bottom: 1PX solid #E2E8EB;
+        .am-list-item{
+          padding-left: 0;
+        }
+        .am-list-line{
+          padding-right: 0;
+        }
+        .am-list-line::after{
+          height: 0 !important;
+        }
+        input, .am-input-label {
+          font-size: 16px;
+        }
+        input{
+          text-align: right;
+        }
+        .TCL_cityLi{
+          input{
+            font-size: 23px;
+            font-weight: 600;
+          }
+          .startCity{
+            input{
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+  }
+  .searchBtn{
+    margin: 16px 10px 10px;
+  }
+  .homeTips{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 1px;
+    .imgTru{
+      width: 14px;
+      height: 14px;
+      margin-right: 6px;
+      vertical-align: -3px;
+    }
+    .imgBook{
+      width: 18px;
+      height: 18px;
+      margin-right: 3px;
+      vertical-align: -4px;
+    }
+  }
+}

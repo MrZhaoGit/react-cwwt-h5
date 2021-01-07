@@ -1,0 +1,29 @@
+.cwtLogo{
+  display: block;
+  width: 165px;
+  margin: 0 auto;
+  margin-top: 40%;
+  margin-bottom: 30px;
+}
+.loadDom{
+  .userIpt{
+    padding-left: 40px;
+  }
+  .userNameBox{
+    position: relative;
+  }
+  .userIcon {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+  }
+  .saveUser{
+    vertical-align: -2px;
+    margin-right: 3px;
+  }
+  .am-button-primary::before {
+    border: 0 !important;
+  }
+}

@@ -1,0 +1,81 @@
+.VipDom{
+  background-color: #fff;
+  padding-bottom: 20px;
+  .Vip_Banner{
+    width: 100%;
+    font-size: 0;
+    img{
+      width: 100%;
+    }
+  }
+  .VIPC_Search{
+    padding-top: 20px;
+    li{
+      margin: 0 10px;
+      border-bottom: 1PX solid #E2E8EB;
+      input {
+        font-size: 16px;
+      }
+      .am-list-item{
+        padding-left: 0;
+      }
+      .am-list-line{
+        padding-right: 0;
+      }
+      .am-list-line::after{
+        height: 0 !important;
+      }
+      .hotelCity{
+        flex-basis: 70%;
+        input{
+          font-size: 23px;
+          font-weight: 600;
+          color: #333;
+        }
+      }
+      .currentCity{
+        font-size: 14px;
+        padding: 3px 5px 3px 3px;
+        border: 1PX solid #adb2b9;
+        border-radius: 3px;
+        img{
+          width: 20px;
+          vertical-align: -4px;
+        }
+      }
+      .currentCity.hasCurrentCity{
+        border: 1PX solid #FF694B;
+        background-color: #FF694B;
+        color: #fff;
+      }
+      .VipSearchMsg{
+        input, .am-input-label{
+          font-size: 16px;
+        }
+        input{
+          text-align: right;
+        }
+      }
+    }
+  }
+  .searchBtn{
+    margin: 16px 10px 10px;
+  }
+  .homeTips{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 1px;
+    .imgTru{
+      width: 14px;
+      height: 14px;
+      margin-right: 6px;
+      vertical-align: -3px;
+    }
+    .imgBook{
+      width: 18px;
+      height: 18px;
+      margin-right: 3px;
+      vertical-align: -4px;
+    }
+  }
+}

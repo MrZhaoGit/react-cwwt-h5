@@ -1,0 +1,33 @@
+.FlightOrderDom{
+  .FO_List{
+    padding-top: 45px;
+    .am-list-body{
+      background-color: unset;
+      overflow: hidden;
+    }
+    .FOL_Content_Card{
+      margin: 8px 15px 8px;
+      img{
+        width: 20px;
+      }
+      .am-card-header-content,{
+        font-size: 16px;
+      }
+      .am-card-body {
+        font-size: 14px;
+        color: #5a616a;
+        img{
+          width: 18px;
+          height: 18px;
+          vertical-align: -4px;
+          margin-right: 3px;
+        }
+        ul{
+          li{
+            margin: 0px 0px 4px;
+          }
+        }
+      }
+    }
+  }
+}
